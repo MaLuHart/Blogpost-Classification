@@ -1,0 +1,51 @@
+First parameters for classification with MLP and vectorization in gensim (all labels):
+processing_time: 9.876363011201223
+memory: None
+steps: [('vect', Doc2VecModel(dm=0, epochs=20, min_count=2, sample=1e-05, vector_size=7500,
+       window=10)), ('clf', MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(2048, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False))]
+vect: Doc2VecModel(dm=0, epochs=20, min_count=2, sample=1e-05, vector_size=7500,
+       window=10)
+clf: MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(2048, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+vect__dm: 0
+vect__epochs: 20
+vect__min_count: 2
+vect__sample: 1e-05
+vect__vector_size: 7500
+vect__window: 10
+clf__activation: relu
+clf__alpha: 0.0001
+clf__batch_size: auto
+clf__beta_1: 0.9
+clf__beta_2: 0.999
+clf__early_stopping: True
+clf__epsilon: 1e-08
+clf__hidden_layer_sizes: (2048, 1024)
+clf__learning_rate: constant
+clf__learning_rate_init: 0.001
+clf__max_iter: 200
+clf__momentum: 0.9
+clf__nesterovs_momentum: True
+clf__power_t: 0.5
+clf__random_state: 1
+clf__shuffle: True
+clf__solver: adam
+clf__tol: 0.0001
+clf__validation_fraction: 0.1
+clf__verbose: True
+clf__warm_start: False
+activation function output layer: logistic
+precision: 0.5440626460963067
+recall: 0.18697099223045927
+f1-score: 0.2747773095949814

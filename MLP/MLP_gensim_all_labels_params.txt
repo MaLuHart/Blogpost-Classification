@@ -1,0 +1,189 @@
+
+*********************************************************************************************
+Parameters for classification with MLP and vectorization in gensim (all labels):
+*********************************************************************************************
+D2VTransformer(alpha=0.025, batch_words=10000, cbow_mean=1, comment=None,
+        dbow_words=0, dm=0, dm_concat=0, dm_mean=None, dm_tag_count=1,
+        docvecs=None, docvecs_mapfile=None,
+        hashfxn=<built-in function hash>, hs=0, iter=20,
+        max_vocab_size=None, min_alpha=0.0001, min_count=4, negative=5,
+        sample=0, seed=1, size=10000, sorted_vocab=1, trim_rule=None,
+        window=10, workers=3)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 114
+layers: 4
+activation function output layer: logistic
+epochs: 9
+processing time: 78.53938343127568
+SCORES:
+precision: 0.8140133553527662
+recall: 0.7606179759931513
+f1-score: 0.7693825399986833
+
+*********************************************************************************************
+Parameters for classification with MLP and vectorization in gensim (all labels):
+*********************************************************************************************
+D2VTransformer(alpha=0.025, batch_words=10000, cbow_mean=1, comment=None,
+        dbow_words=0, dm=0, dm_concat=0, dm_mean=None, dm_tag_count=1,
+        docvecs=None, docvecs_mapfile=None,
+        hashfxn=<built-in function hash>, hs=0, iter=20,
+        max_vocab_size=None, min_alpha=0.0001, min_count=4, negative=5,
+        sample=1e-05, seed=1, size=10000, sorted_vocab=1, trim_rule=None,
+        window=10, workers=3)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 114
+layers: 4
+activation function output layer: logistic
+epochs: 16
+processing time: 123.09944910605749
+SCORES:
+precision: 0.7912217412217413
+recall: 0.7064002156744092
+f1-score: 0.7247897516214087
+
+*********************************************************************************************
+Parameters for classification with MLP and vectorization in gensim (all labels):
+*********************************************************************************************
+D2VTransformer(alpha=0.025, batch_words=10000, cbow_mean=1, comment=None,
+        dbow_words=0, dm=0, dm_concat=0, dm_mean=None, dm_tag_count=1,
+        docvecs=None, docvecs_mapfile=None,
+        hashfxn=<built-in function hash>, hs=0, iter=20,
+        max_vocab_size=None, min_alpha=0.0001, min_count=2, negative=5,
+        sample=0, seed=1, size=10000, sorted_vocab=1, trim_rule=None,
+        window=4, workers=3)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 114
+layers: 4
+activation function output layer: logistic
+epochs: 19
+processing time: 94.20859717130661
+SCORES:
+precision: 0.8221038097791254
+recall: 0.7532763098155805
+f1-score: 0.7682097900091422
+
+*********************************************************************************************
+Parameters for classification with MLP and vectorization in gensim (all labels):
+*********************************************************************************************
+D2VTransformer(alpha=0.025, batch_words=10000, cbow_mean=1, comment=None,
+        dbow_words=0, dm=1, dm_concat=0, dm_mean=None, dm_tag_count=1,
+        docvecs=None, docvecs_mapfile=None,
+        hashfxn=<built-in function hash>, hs=0, iter=20,
+        max_vocab_size=None, min_alpha=0.0001, min_count=4, negative=5,
+        sample=0, seed=1, size=10000, sorted_vocab=1, trim_rule=None,
+        window=10, workers=3)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 114
+layers: 4
+activation function output layer: logistic
+epochs: 9
+processing time: 83.76870129903158
+SCORES:
+precision: 0.6846597742810927
+recall: 0.5586948089051876
+f1-score: 0.5858776736488428
+
+*********************************************************************************************
+Parameters for classification with MLP and vectorization in gensim (all labels):
+*********************************************************************************************
+D2VTransformer(alpha=0.025, batch_words=10000, cbow_mean=1, comment=None,
+        dbow_words=0, dm=0, dm_concat=0, dm_mean=None, dm_tag_count=1,
+        docvecs=None, docvecs_mapfile=None,
+        hashfxn=<built-in function hash>, hs=0, iter=20,
+        max_vocab_size=None, min_alpha=0.0001, min_count=4, negative=5,
+        sample=0, seed=1, size=1000, sorted_vocab=1, trim_rule=None,
+        window=10, workers=3)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 114
+layers: 4
+activation function output layer: logistic
+epochs: 9
+processing time: 10.838442222277324
+SCORES:
+precision: 0.8202564707122912
+recall: 0.7472658698114518
+f1-score: 0.7632280379948888
+
+*********************************************************************************************
+Parameters for classification with MLP and vectorization in gensim (all labels):
+*********************************************************************************************
+D2VTransformer(alpha=0.025, batch_words=10000, cbow_mean=1, comment=None,
+        dbow_words=0, dm=0, dm_concat=0, dm_mean=None, dm_tag_count=1,
+        docvecs=None, docvecs_mapfile=None,
+        hashfxn=<built-in function hash>, hs=0, iter=20,
+        max_vocab_size=None, min_alpha=0.0001, min_count=4, negative=5,
+        sample=0, seed=1, size=500, sorted_vocab=1, trim_rule=None,
+        window=10, workers=3)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 114
+layers: 4
+activation function output layer: logistic
+epochs: 12
+processing time: 10.53508681456248
+SCORES:
+precision: 0.825183916909022
+recall: 0.7423972662577151
+f1-score: 0.7617303106701128
+
+*********************************************************************************************
+Parameters for classification with MLP and vectorization in gensim (all labels):
+*********************************************************************************************
+D2VTransformer(alpha=0.025, batch_words=10000, cbow_mean=1, comment=None,
+        dbow_words=0, dm=0, dm_concat=0, dm_mean=None, dm_tag_count=1,
+        docvecs=None, docvecs_mapfile=None,
+        hashfxn=<built-in function hash>, hs=0, iter=20,
+        max_vocab_size=None, min_alpha=0.0001, min_count=4, negative=5,
+        sample=0, seed=1, size=100, sorted_vocab=1, trim_rule=None,
+        window=10, workers=3)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 114
+layers: 4
+activation function output layer: logistic
+epochs: 16
+processing time: 9.418157331148784
+SCORES:
+precision: 0.8217658127545926
+recall: 0.7562095863463324
+f1-score: 0.7706134706298624
