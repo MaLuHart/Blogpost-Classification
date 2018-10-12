@@ -5,7 +5,7 @@
 # 
 # Autorin: Maria Hartmann
 
-# In[46]:
+# In[1]:
 
 
 # Imports
@@ -21,7 +21,7 @@ from sklearn.neural_network import MLPClassifier
 from keras.wrappers.scikit_learn import KerasClassifier
 from keras.models import Sequential
 from keras.layers import Embedding, Dense, LSTM, Flatten, Dropout, BatchNormalization
-from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau, TensorBoard
+from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 
 
 # Einlesen der vektorisierten Daten
@@ -134,7 +134,7 @@ mlp_f1 = f1_score(encoded_y_test, mlp_predicted.round(), average='samples')
 print(mlp_f1)
 
 
-# In[13]:
+# In[12]:
 
 
 loss_values = mlp_clf.loss_curve_
@@ -147,7 +147,7 @@ pyplot.savefig('%s/all_labels_gensim_mlp_plot_loss.png' % output_dir)
 pyplot.show()
 
 
-# In[14]:
+# In[13]:
 
 
 validation_scores = mlp_clf.validation_scores_
@@ -162,14 +162,14 @@ pyplot.show()
 
 # Vergleich zwischen der Vektorisierung in scikit-learn und gensim (Klassifikation mit dem MLPClassifier von all_labels)
 
-# In[18]:
+# In[14]:
 
 
 loss_values_scikit_learn = [19.21366700374499, 9.467989909749473, 5.495542813416394, 2.980149101333112, 1.6234586937668352, 0.9450190023217871, 0.6229070227073472, 0.4846545875629756, 0.4053494018358509]
 validation_scores_scikit_learn = [0.38457042665108127, 0.45879602571595557, 0.5137346580946814, 0.5406195207481005, 0.5429573348918761, 0.5441262419637639, 0.5417884278199883, 0.5388661601402689, 0.5423728813559322]
 
 
-# In[19]:
+# In[15]:
 
 
 pyplot.title('Loss on training data (all_labels)')
@@ -194,13 +194,13 @@ pyplot.show()
 
 # # Klassifikation mit Dense-Layer in Keras
 
-# In[31]:
+# In[16]:
 
 
 count=0
 
 
-# In[33]:
+# In[34]:
 
 
 # MLP in Keras  
@@ -232,7 +232,6 @@ dense_model.compile(loss=lossfunction,
 
 callbacks_list = [EarlyStopping(monitor='val_loss', patience=7, verbose=10),
                   ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=5, verbose=10),
-                  TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
                  ]
 
 # train keras model
@@ -254,7 +253,7 @@ print("Laufzeit in Minuten:", dense_time)
 count+=1
 
 
-# In[34]:
+# In[35]:
 
 
 # visualize the train and validate loss and accuracy
@@ -276,14 +275,14 @@ pyplot.show()
 pyplot.close()
 
 
-# In[35]:
+# In[36]:
 
 
 print(dense_time)
 dense_predicted = dense_model.predict_proba(X_test)
 
 
-# In[36]:
+# In[37]:
 
 
 print(dense_predicted[0].round())
@@ -301,33 +300,33 @@ dense_f1 = f1_score(encoded_y_test, dense_predicted.round(), average='samples')
 print(dense_f1)
 
 
-# Ohne Dropout:
+# Ohne Dropout: 11 Epochen
 # 
-# Precision: 0.8368304699300492
-# Recall: 0.7853174771828347
-# F1-Score: 0.7967917446616334
+# Precision: 0.8339751938103972
+# Recall: 0.7749048539897067
+# F1-Score: 0.7888672687359395
 # 
-# Mit einer Dropout-Schicht (0,4)
+# Mit einer Dropout-Schicht (0,4): 13 Epochen
 # 
-# Precision: 0.8364704953765262
-# Recall: 0.8097225342316505
-# F1-Score: 0.8126913833496906
+# Precision: 0.8425623529760978
+# Recall: 0.7885816776595177
+# F1-Score: 0.8003828957502226
 # 
-# Mit drei Dropout-Schichten (0,4):
+# Mit drei Dropout-Schichten (0,4): 60 Epochen
 # 
-# Precision: 0.817464881490127
-# Recall: 0.764179040791944
-# F1-Score: 0.771810034224439
+# Precision: 0.8315491771487563
+# Recall: 0.7747155570262163
+# F1-Score: 0.7839067132706055
 
 # # Klassifikation mit LSTM-Layer in Keras
 
-# In[47]:
+# In[32]:
 
 
 # LSTM in Keras
 lstm_model = Sequential()
-lstm_model.add(Embedding(input_dim=dim, output_dim=114))
-lstm_model.add(LSTM(114))#, dropout=0.4, recurrent_dropout=0.4))
+lstm_model.add(Embedding(input_dim=dim, output_dim=256))
+lstm_model.add(LSTM(128))#, dropout=0.4, recurrent_dropout=0.4))
 lstm_model.add(Dense(len(label_encoder.classes_), activation="sigmoid"))
 
 summary = lstm_model.summary()
@@ -346,7 +345,6 @@ lstm_model.compile(loss=lossfunction,
 
 callbacks_list = [EarlyStopping(monitor='val_loss', patience=7, verbose=10),
                   ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=5, verbose=10),
-                  TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
                  ]
 
 # train keras model

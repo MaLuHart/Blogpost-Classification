@@ -6,7 +6,7 @@
 # 
 # Autorin: Maria Hartmann
 
-# In[1]:
+# In[23]:
 
 
 # Imports
@@ -15,7 +15,7 @@ import csv
 import time
 import numpy as np
 import pandas as pd
-from scipy import sparse
+import scipy.sparse
 import multiprocessing # module for multiprocessing 
 from sklearn.base import BaseEstimator
 import gensim # module for Doc2Vec
@@ -117,13 +117,13 @@ for i, element in enumerate(label_encoder.classes_):
 
 # Klassifikation der Daten mit gensim
 
-# In[33]:
+# In[40]:
 
 
-vectorizer = D2VTransformer(dm=0, window=10, iter=20, size=10000, min_count=4, sample=0)
+vectorizer = D2VTransformer(dm=0, window=10, iter=20, size=100, min_count=4, sample=0)
 
 
-# In[35]:
+# In[41]:
 
 
 text_clf = Pipeline([('vect', vectorizer),
@@ -131,7 +131,7 @@ text_clf = Pipeline([('vect', vectorizer),
                     ])
 
 
-# In[36]:
+# In[42]:
 
 
 # train
@@ -140,20 +140,20 @@ text_clf = text_clf.fit(X_train, encoded_y_train)
 processing_time = (time.time() - start) / 60
 
 
-# In[37]:
+# In[43]:
 
 
 clf_params = text_clf.get_params()
 print(clf_params)
 
 
-# In[38]:
+# In[44]:
 
 
 print(processing_time)
 
 
-# In[39]:
+# In[45]:
 
 
 # predict
@@ -161,7 +161,7 @@ predicted = text_clf.predict(X_test)
 #predicted_proba = text_clf.predict_proba(X_test)
 
 
-# In[40]:
+# In[46]:
 
 
 # precision is a measure of result relevancy
@@ -170,7 +170,7 @@ precision = precision_score(encoded_y_test, predicted, average='samples')
 print(precision)
 
 
-# In[41]:
+# In[47]:
 
 
 # recall is a measure of how many truly relevant results are returned
@@ -179,7 +179,7 @@ recall = recall_score(encoded_y_test, predicted, average='samples')
 print(recall)
 
 
-# In[42]:
+# In[48]:
 
 
 # F1 score is a weighted average of the precision and recall
@@ -188,15 +188,15 @@ f1 = f1_score(encoded_y_test, predicted, average='samples')
 print(f1)
 
 
-# In[30]:
+# In[49]:
 
 
-output = '../MLP/gensim'
+output = '../MLP/gensim_klein'
 if not os.path.exists(output):
     os.makedirs(output)
 
 
-# In[32]:
+# In[50]:
 
 
 # write parameters and scores to file
@@ -223,7 +223,7 @@ with open(output+'/MLP_gensim_all_labels_params.txt',"a", encoding="utf8") as pa
 
 # Speicherung der vektrorisierten Daten
 
-# In[43]:
+# In[51]:
 
 
 z_train = [e.replace('.txt', '') for e in z_train]
@@ -235,7 +235,7 @@ print(len(ident_train))
 print(ident_train[0])
 
 
-# In[44]:
+# In[52]:
 
 
 # vectorize textdata
@@ -246,7 +246,7 @@ print(train_vect.shape)
 print(type(train_vect))
 
 
-# In[52]:
+# In[53]:
 
 
 # convert vectorized textdata to sparse matrix
@@ -256,7 +256,7 @@ test_matrix = sparse.csr_matrix(test_vect)
 train_matrix
 
 
-# In[55]:
+# In[54]:
 
 
 # save filename, classes, textvectors in csv file
