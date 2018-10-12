@@ -1,0 +1,174 @@
+1914-1918_t : 3366
+1918-1939_t : 121
+1939-1945_t : 288
+1945-1989_t : 248
+1989 à de nos jours_t : 91
+administration publique et développement_d : 125
+administration publique_d : 24
+anthropologie culturelle_t : 68
+anthropologie politique_t : 126
+anthropologie_d : 59
+anthropologie_t : 21
+approches de corpus_t : 7054
+architecture_d : 88
+architecture_t : 22
+archives_t : 7054
+archéologie_d : 228
+arts et humanités_d : 1962
+arts_d : 132
+asie_t : 332
+balkans_t : 51
+bas moyen âge_t : 1057
+bibliothéconomie_d : 428
+biomédecine_d : 211
+canada_t : 37
+cartographie_t : 17
+chine_t : 150
+communication_d : 852
+conflits_t : 176
+digital humanities_t : 979
+droit_d : 68
+droit_t : 56
+démographie_t : 46
+enquêtes_t : 7054
+espace_t : 94
+ethnologie_t : 21
+europe centrale et orientale_t : 397
+europe_t : 429
+france_t : 538
+guerres_t : 176
+génocides et massacres_t : 24
+géographie appliquée et aménagement_t : 72
+géographie et développement_d : 39
+géographie urbaine_t : 26
+géographie_t : 24
+haut moyen âge_t : 1196
+histoire culturelle_t : 1054
+histoire de l'art_t : 611
+histoire de l'éducation_t : 46
+histoire des femmes_t : 13
+histoire des religions_t : 442
+histoire des sciences sociales_d : 230
+histoire des sciences_t : 495
+histoire du droit_t : 223
+histoire du travail_t : 26
+histoire et archéologie_d : 9892
+histoire et philosophie des sciences_d : 682
+histoire et sociologie de la presse_t : 58
+histoire et sociologie des médias_t : 670
+histoire et sociologie du livre_t : 57
+histoire industrielle_t : 112
+histoire intellectuelle_t : 732
+histoire politique_t : 181
+histoire romaine_t : 31
+histoire rurale_t : 41
+histoire sociale_t : 815
+histoire urbaine_t : 554
+histoire économique_t : 143
+histoire_d : 7127
+histoire_t : 13377
+historiographie_t : 161
+humanités pluridisciplinaires_d : 3060
+identités culturelles_t : 82
+imagerie_t : 17
+immigrations_t : 11
+information_t : 1511
+institutions politiques_t : 51
+italie_t : 54
+langage_t : 139
+langue et linguistique_d : 404
+linguistique appliquée_d : 138
+linguistique_t : 304
+littérature romane_d : 18
+littérature_d : 204
+littératures_t : 193
+management et administration_d : 63
+migrations_t : 11
+minorités_t : 11
+monde germanique_t : 2397
+mondes russes et soviétiques_t : 99
+mouvements politiques et sociaux_t : 90
+moyen âge_t : 1054
+musique_d : 180
+méthodes de traitement et de représentation_t : 141
+nature_t : 24
+patrimoine_t : 1224
+pays baltes et scandinaves_t : 162
+paysage et environnement_t : 24
+pensée_t : 142
+philosophie des sciences_t : 81
+philosophie_d : 168
+philosophie_t : 140
+pluridisciplinarité_d : 3102
+proche-orient_t : 64
+prospectives_t : 801
+préhistoire et antiquité_t : 80
+préhistoire_t : 31
+psychiatrie_d : 11
+psychisme_t : 252
+psychologie du développement_d : 21
+psychologie expérimentale_d : 112
+psychologie_d : 140
+psychologie_t : 231
+questions sociales_d : 32
+relations internationales_d : 51
+relations internationales_t : 112
+religions_d : 755
+religions_t : 220
+représentations_t : 1092
+révolution française_t : 263
+sciences auxiliaires de l'histoire_t : 582
+sciences cognitives_t : 112
+sciences de l'information et bibliothéconomie_d : 274
+sciences de l'information et de la communication_d : 428
+sciences de l'information_t : 492
+sciences de l'éducation_t : 274
+sciences politiques_d : 569
+sciences politiques_t : 56
+sciences sociales interdisciplinaires_d : 9225
+sig_t : 17
+sociologie de la culture_t : 813
+sociologie des religions_t : 137
+sociologie des sciences_t : 470
+sociologie du droit_t : 56
+sociologie du travail_t : 774
+sociologie et anthropologie_d : 635
+sociologie urbaine_t : 625
+sociologie économique_t : 541
+sociologie_d : 504
+sociologie_t : 563
+société et territoire_t : 94
+travail social et politique sociale_d : 138
+travail social_d : 262
+vie de la recherche_t : 460
+violence_t : 176
+xvie siècle_t : 246
+xviie siècle_t : 1252
+xviiie siècle_t : 1056
+xxe siècle_t : 198
+xxie siècle_t : 226
+âges de la vie_t : 248
+économie_d : 109
+économie_t : 42
+édition électronique_t : 1043
+éducation : disciplines scientifiques_d : 66
+éducation et sciences de l'éducation_d : 135
+éducation spécialisée_d : 383
+éducation_d : 766
+éducation_t : 481
+épistémologie et méthodes_t : 555
+épistémologie_t : 15
+époque contemporaine_t : 3647
+époque moderne_t : 682
+étude des genres_t : 211
+études anciennes_d : 169
+études asiatiques_d : 268
+études des sciences_t : 738
+études du politique_t : 51
+études environnementales_d : 39
+études féministes_d : 13
+études littéraires_d : 25
+études régionales_d : 229
+études sur la famille_d : 134
+études urbaines_t : 95
+études visuelles_t : 376

@@ -1,0 +1,14 @@
+administration publique et développement_d : 644
+arts et humanités_d : 4863
+bibliothéconomie_d : 1252
+histoire et archéologie_d : 16471
+langue et linguistique_d : 414
+littérature_d : 204
+pluridisciplinarité_d : 10635
+psychologie_d : 252
+sciences de l'information et de la communication_d : 1252
+sciences de la santé et de la santé publique_d : 211
+sciences politiques_d : 644
+sociologie et anthropologie_d : 1440
+travail social et politique sociale_d : 553
+éducation_d : 1011
