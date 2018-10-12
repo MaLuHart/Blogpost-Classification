@@ -1,0 +1,75 @@
+First parameters for classification with MLP (disciplines only):
+processing_time: 7.496989766756694
+memory: None
+steps: [('vect', CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)), ('tfidf', TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)), ('clf', MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(1024, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False))]
+vect: CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+tfidf: TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+clf: MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(1024, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+vect__analyzer: word
+vect__binary: False
+vect__decode_error: strict
+vect__dtype: <class 'numpy.int64'>
+vect__encoding: utf-8
+vect__input: content
+vect__lowercase: True
+vect__max_df: 1.0
+vect__max_features: 5000
+vect__min_df: 1
+vect__ngram_range: (1, 4)
+vect__preprocessor: None
+vect__stop_words: None
+vect__strip_accents: None
+vect__token_pattern: (?u)\b\w\w+\b
+vect__tokenizer: None
+vect__vocabulary: None
+tfidf__norm: l2
+tfidf__smooth_idf: True
+tfidf__sublinear_tf: False
+tfidf__use_idf: True
+clf__activation: relu
+clf__alpha: 0.0001
+clf__batch_size: auto
+clf__beta_1: 0.9
+clf__beta_2: 0.999
+clf__early_stopping: True
+clf__epsilon: 1e-08
+clf__hidden_layer_sizes: (1024, 512)
+clf__learning_rate: constant
+clf__learning_rate_init: 0.001
+clf__max_iter: 500
+clf__momentum: 0.9
+clf__nesterovs_momentum: True
+clf__power_t: 0.5
+clf__random_state: 1
+clf__shuffle: True
+clf__solver: adam
+clf__tol: 0.0001
+clf__validation_fraction: 0.1
+clf__verbose: True
+clf__warm_start: False
+activation function output layer: logistic
+precision: 0.8361312729259346
+recall: 0.8091508624053695
+f1-score: 0.8044041951440688

@@ -1,0 +1,15 @@
+Label, Trainingsset (#), Testset (#), Vorhersagen (#), Korrekte Vorhersagen (#), Korrekte Vorhersagen (%), Falsche Vorhersagen (#), Falsche Vorhersagen (%), Nicht vorhergesagte Labels (#), Nicht vorhergesagte Labels (%)
+administration publique et développement_d, 644, 130, 71, 57, 80.28%, 14, 19.72%, 73, 56.15%
+arts et humanités_d, 4863, 973, 962, 713, 74.12%, 249, 25.88%, 260, 26.72%
+bibliothéconomie_d, 1252, 251, 159, 122, 76.73%, 37, 23.27%, 129, 51.39%
+histoire et archéologie_d, 16471, 3296, 3348, 3090, 92.29%, 258, 7.71%, 206, 6.25%
+langue et linguistique_d, 414, 83, 49, 46, 93.88%, 3, 6.12%, 37, 44.58%
+littérature_d, 204, 41, 0, 0, 0%, 0, 0%, 41, 100.0%
+pluridisciplinarité_d, 10635, 2128, 2208, 1862, 84.33%, 346, 15.67%, 266, 12.5%
+psychologie_d, 252, 50, 38, 37, 97.37%, 1, 2.63%, 13, 26.0%
+sciences de l'information et de la communication_d, 1252, 251, 158, 124, 78.48%, 34, 21.52%, 127, 50.6%
+sciences de la santé et de la santé publique_d, 211, 42, 22, 21, 95.45%, 1, 4.55%, 21, 50.0%
+sciences politiques_d, 644, 130, 72, 58, 80.56%, 14, 19.44%, 72, 55.38%
+sociologie et anthropologie_d, 1440, 287, 208, 171, 82.21%, 37, 17.79%, 116, 40.42%
+travail social et politique sociale_d, 553, 111, 77, 75, 97.4%, 2, 2.6%, 36, 32.43%
+éducation_d, 1011, 202, 125, 117, 93.6%, 8, 6.4%, 85, 42.08%

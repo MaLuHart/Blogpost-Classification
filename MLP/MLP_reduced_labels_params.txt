@@ -1,0 +1,297 @@
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.9, max_features=None, min_df=0.01,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(1024, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 11
+processing time: 11.741507391134897
+SCORES:
+precision: 0.80947251348724
+recall: 0.7591597282515936
+f1-score: 0.769591810919878
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(1024, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 7
+processing time: 5.658488762378693
+SCORES:
+precision: 0.8377434010849159
+recall: 0.7595103593876384
+f1-score: 0.7808616999927535
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 8
+processing time: 18.53212507168452
+SCORES:
+precision: 0.8362823452585023
+recall: 0.770798177460169
+f1-score: 0.7883972656258359
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 9
+processing time: 29.727529827753703
+SCORES:
+precision: 0.8438505977426033
+recall: 0.7899068322981367
+f1-score: 0.8029355089416141
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=25000, min_df=1,
+        ngram_range=(1, 2), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(2048, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 6
+processing time: 45.68719780047734
+SCORES:
+precision: 0.8735178877535119
+recall: 0.7986786400706457
+f1-score: 0.8195848310205623
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 9
+processing time: 21.721337048212686
+SCORES:
+precision: 0.8438505977426033
+recall: 0.7899068322981367
+f1-score: 0.8029355089416141
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(2048, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 8
+processing time: 8.78587721188863
+SCORES:
+precision: 0.8429097375275496
+recall: 0.7842209495610617
+f1-score: 0.7982615431041715
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=300, min_df=1,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 15
+processing time: 10.034454639752706
+SCORES:
+precision: 0.7843020214163272
+recall: 0.7169666510830607
+f1-score: 0.7330909722925646
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=10000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None,
+        stop_words=['und', 'die', 'der'], strip_accents=None,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 7
+processing time: 28.921730824311574
+SCORES:
+precision: 0.8596379037823638
+recall: 0.8138036428534324
+f1-score: 0.8247182393457454
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=10000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None,
+        stop_words=['und', 'die', 'der'], strip_accents=None,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(2048, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 7
+processing time: 11.914689111709595
+SCORES:
+precision: 0.8631489458803625
+recall: 0.8000863591501739
+f1-score: 0.8172191107056217
+
+*********************************************************************************************
+Parameters for classification with MLP (reduced labels):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=10000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None,
+        stop_words=['und', 'die', 'der'], strip_accents=None,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 35
+layers: 4
+activation function output layer: logistic
+epochs: 7
+processing time: 20.738924300670625
+SCORES:
+precision: 0.8596379037823638
+recall: 0.8138036428534324
+f1-score: 0.8247182393457454

@@ -1,0 +1,189 @@
+
+*********************************************************************************************
+Parameters for classification with MLP (themes only):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.9, max_features=None, min_df=0.01,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(1024, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 21
+layers: 4
+activation function output layer: logistic
+epochs: 8
+processing time: 10.86171476840973
+SCORES:
+precision: 0.8088047374162382
+recall: 0.7568684743649681
+f1-score: 0.7634872737257029
+
+*********************************************************************************************
+Parameters for classification with MLP (themes only):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(1024, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 21
+layers: 4
+activation function output layer: logistic
+epochs: 8
+processing time: 11.17946099837621
+SCORES:
+precision: 0.8219884681315256
+recall: 0.76757051581736
+f1-score: 0.7772631983361297
+
+*********************************************************************************************
+Parameters for classification with MLP (themes only):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 21
+layers: 4
+activation function output layer: logistic
+epochs: 6
+processing time: 14.148546969890594
+SCORES:
+precision: 0.8339700349518021
+recall: 0.7699119526258377
+f1-score: 0.7824845470357391
+
+*********************************************************************************************
+Parameters for classification with MLP (themes only):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=5000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 21
+layers: 4
+activation function output layer: logistic
+epochs: 10
+processing time: 20.343805436293284
+SCORES:
+precision: 0.8359085242325074
+recall: 0.7888577216767959
+f1-score: 0.7950060951463476
+
+*********************************************************************************************
+Parameters for classification with MLP (themes only):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=25000, min_df=1,
+        ngram_range=(1, 3), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(2048, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 21
+layers: 4
+activation function output layer: logistic
+epochs: 6
+processing time: 52.84614980220795
+SCORES:
+precision: 0.8603903693314633
+recall: 0.790455041296556
+f1-score: 0.8062814244090541
+
+*********************************************************************************************
+Parameters for classification with MLP (themes only):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=10000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None,
+        stop_words=['und', 'die', 'der'], strip_accents=None,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(4096, 1024), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 21
+layers: 4
+activation function output layer: logistic
+epochs: 6
+processing time: 20.006786000728606
+SCORES:
+precision: 0.8554191990026493
+recall: 0.8006545114539504
+f1-score: 0.8115692252789026
+
+*********************************************************************************************
+Parameters for classification with MLP (themes only):
+*********************************************************************************************
+CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=10000, min_df=1,
+        ngram_range=(1, 1), preprocessor=None,
+        stop_words=['und', 'die', 'der'], strip_accents=None,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, vocabulary=None)
+TfidfTransformer(norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=(2048, 512), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False)
+classes: 21
+layers: 4
+activation function output layer: logistic
+epochs: 6
+processing time: 8.716987975438435
+SCORES:
+precision: 0.8621218192746944
+recall: 0.8009467040673212
+f1-score: 0.8133429541213552
