@@ -1,0 +1,118 @@
+Anzahl der Dokumente im Testset: 4278
+Gefundene Labels: 35
+Insgesamt getroffene Vorhersagen: 15367
+Richtig vorhergesagte Labels: 12684
+Falsch vorhergesagte Labels: 2683
+
+LABELVERTEILUNG IM TESTSET DES KORPUS (absteigend sortiert):
+histoire et archéologie_d: 6517
+histoire_t: 5553
+pluridisciplinarité_d: 3978
+épistémologie et méthodes_t: 3041
+arts et humanités_d: 1831
+époque contemporaine_t: 1654
+europe_t: 1244
+information_t: 973
+représentations_t: 807
+sociologie_t: 596
+moyen âge_t: 483
+sociologie et anthropologie_d: 435
+bibliothéconomie_d: 403
+époque moderne_t: 364
+éducation_d: 281
+sciences de l'information et de la communication_d: 274
+études des sciences_t: 270
+pensée_t: 228
+éducation_t: 200
+travail social et politique sociale_d: 192
+administration publique et développement_d: 190
+religions_t: 170
+sciences politiques_d: 147
+langage_t: 139
+asie_t: 120
+langue et linguistique_d: 119
+études du politique_t: 89
+droit_t: 75
+anthropologie_t: 61
+psychisme_t: 59
+géographie_t: 57
+psychologie_d: 54
+ethnologie_t: 54
+littérature_d: 43
+sciences de la santé et de la santé publique_d: 33
+
+
+ANZAHL DER FEHLERHAFTEN VORHERSAGEN PRO LABEL (absteigend sortiert):
+arts et humanités_d: 362
+pluridisciplinarité_d: 286
+europe_t: 268
+histoire et archéologie_d: 267
+histoire_t: 207
+épistémologie et méthodes_t: 187
+information_t: 187
+bibliothéconomie_d: 117
+représentations_t: 84
+moyen âge_t: 80
+sociologie_t: 68
+administration publique et développement_d: 67
+époque contemporaine_t: 64
+langage_t: 47
+époque moderne_t: 40
+pensée_t: 39
+sociologie et anthropologie_d: 38
+études des sciences_t: 35
+droit_t: 27
+langue et linguistique_d: 25
+sciences politiques_d: 24
+géographie_t: 22
+éducation_d: 21
+anthropologie_t: 21
+religions_t: 17
+sciences de l'information et de la communication_d: 15
+asie_t: 14
+ethnologie_t: 14
+travail social et politique sociale_d: 13
+littérature_d: 11
+psychisme_t: 7
+études du politique_t: 3
+éducation_t: 3
+psychologie_d: 2
+sciences de la santé et de la santé publique_d: 1
+
+
+FEHLER DER VORHERSAGEN PRO LABEL IN PROZENT (absteigend sortiert):
+géographie_t: 38.6%
+droit_t: 36.0%
+administration publique et développement_d: 35.26%
+anthropologie_t: 34.43%
+langage_t: 33.81%
+bibliothéconomie_d: 29.03%
+ethnologie_t: 25.93%
+littérature_d: 25.58%
+europe_t: 21.54%
+langue et linguistique_d: 21.01%
+arts et humanités_d: 19.77%
+information_t: 19.22%
+pensée_t: 17.11%
+moyen âge_t: 16.56%
+sciences politiques_d: 16.33%
+études des sciences_t: 12.96%
+psychisme_t: 11.86%
+asie_t: 11.67%
+sociologie_t: 11.41%
+époque moderne_t: 10.99%
+représentations_t: 10.41%
+religions_t: 10.0%
+sociologie et anthropologie_d: 8.74%
+éducation_d: 7.47%
+pluridisciplinarité_d: 7.19%
+travail social et politique sociale_d: 6.77%
+épistémologie et méthodes_t: 6.15%
+sciences de l'information et de la communication_d: 5.47%
+histoire et archéologie_d: 4.1%
+époque contemporaine_t: 3.87%
+histoire_t: 3.73%
+psychologie_d: 3.7%
+études du politique_t: 3.37%
+sciences de la santé et de la santé publique_d: 3.03%
+éducation_t: 1.5%

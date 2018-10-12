@@ -1,0 +1,12 @@
+Parameters for classification with k-nearest-neighbors from randomized search (reduced labels):
+processing_time: 215.04264030059178
+vect__ngram_range: (1, 4)
+vect__min_df: 0.0
+vect__max_df: 0.9
+tfidf__use_idf: True
+clf__weights: distance
+clf__n_neighbors: 6
+best_score: 0.6154070956806359
+precision: 0.8644064872325742
+recall: 0.8057807757667506
+f1-score: 0.8224381392333707

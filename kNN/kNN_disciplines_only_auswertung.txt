@@ -1,0 +1,57 @@
+AUSWERTUNG DER VORHERSAGEN FÜR DEN KORPUS disciplines_only
+
+Anzahl der Dokumente im Testset: 4271
+Gefundene Labels: 14
+Insgesamt getroffene Vorhersagen: 7067
+Richtig vorhergesagte Labels: 5990
+Falsch vorhergesagte Labels: 1077
+
+LABELVERTEILUNG IM TESTSET DES KORPUS (absteigend sortiert):
+histoire et archéologie_d: 6478
+pluridisciplinarité_d: 3777
+arts et humanités_d: 1789
+sociologie et anthropologie_d: 417
+bibliothéconomie_d: 381
+éducation_d: 271
+sciences de l'information et de la communication_d: 258
+travail social et politique sociale_d: 191
+administration publique et développement_d: 180
+sciences politiques_d: 121
+langue et linguistique_d: 115
+psychologie_d: 64
+sciences de la santé et de la santé publique_d: 52
+littérature_d: 40
+
+
+ANZAHL DER FEHLERHAFTEN VORHERSAGEN PRO LABEL (absteigend sortiert):
+arts et humanités_d: 374
+histoire et archéologie_d: 190
+pluridisciplinarité_d: 167
+bibliothéconomie_d: 104
+administration publique et développement_d: 68
+sociologie et anthropologie_d: 45
+langue et linguistique_d: 37
+éducation_d: 28
+littérature_d: 14
+psychologie_d: 14
+travail social et politique sociale_d: 13
+sciences de la santé et de la santé publique_d: 11
+sciences politiques_d: 10
+sciences de l'information et de la communication_d: 2
+
+
+FEHLER DER VORHERSAGEN PRO LABEL IN PROZENT (absteigend sortiert):
+administration publique et développement_d: 37.78%
+littérature_d: 35.0%
+langue et linguistique_d: 32.17%
+bibliothéconomie_d: 27.3%
+psychologie_d: 21.88%
+sciences de la santé et de la santé publique_d: 21.15%
+arts et humanités_d: 20.91%
+sociologie et anthropologie_d: 10.79%
+éducation_d: 10.33%
+sciences politiques_d: 8.26%
+travail social et politique sociale_d: 6.81%
+pluridisciplinarité_d: 4.42%
+histoire et archéologie_d: 2.93%
+sciences de l'information et de la communication_d: 0.78%

@@ -1,0 +1,78 @@
+AUSWERTUNG DER VORHERSAGEN FÜR DEN KORPUS themes_only
+
+Anzahl der Dokumente im Testset: 4278
+Gefundene Labels: 21
+Insgesamt getroffene Vorhersagen: 8173
+Richtig vorhergesagte Labels: 6764
+Falsch vorhergesagte Labels: 1409
+
+LABELVERTEILUNG IM TESTSET DES KORPUS (absteigend sortiert):
+histoire_t: 5631
+épistémologie et méthodes_t: 3065
+époque contemporaine_t: 1699
+europe_t: 1288
+information_t: 899
+représentations_t: 759
+sociologie_t: 629
+moyen âge_t: 487
+époque moderne_t: 333
+études des sciences_t: 319
+éducation_t: 221
+pensée_t: 213
+religions_t: 181
+asie_t: 114
+langage_t: 114
+études du politique_t: 91
+droit_t: 86
+anthropologie_t: 60
+géographie_t: 55
+psychisme_t: 51
+ethnologie_t: 51
+
+
+ANZAHL DER FEHLERHAFTEN VORHERSAGEN PRO LABEL (absteigend sortiert):
+europe_t: 341
+épistémologie et méthodes_t: 192
+information_t: 176
+histoire_t: 163
+moyen âge_t: 91
+représentations_t: 63
+pensée_t: 52
+époque contemporaine_t: 50
+sociologie_t: 50
+époque moderne_t: 38
+religions_t: 29
+langage_t: 29
+études des sciences_t: 22
+anthropologie_t: 21
+géographie_t: 20
+asie_t: 19
+éducation_t: 17
+droit_t: 17
+ethnologie_t: 12
+études du politique_t: 5
+psychisme_t: 2
+
+
+FEHLER DER VORHERSAGEN PRO LABEL IN PROZENT (absteigend sortiert):
+géographie_t: 36.36%
+anthropologie_t: 35.0%
+europe_t: 26.48%
+langage_t: 25.44%
+pensée_t: 24.41%
+ethnologie_t: 23.53%
+droit_t: 19.77%
+information_t: 19.58%
+moyen âge_t: 18.69%
+asie_t: 16.67%
+religions_t: 16.02%
+époque moderne_t: 11.41%
+représentations_t: 8.3%
+sociologie_t: 7.95%
+éducation_t: 7.69%
+études des sciences_t: 6.9%
+épistémologie et méthodes_t: 6.26%
+études du politique_t: 5.49%
+psychisme_t: 3.92%
+époque contemporaine_t: 2.94%
+histoire_t: 2.89%

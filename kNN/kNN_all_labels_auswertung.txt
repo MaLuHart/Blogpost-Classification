@@ -1,0 +1,353 @@
+AUSWERTUNG DER VORHERSAGEN FÜR DEN KORPUS all_labels
+
+Anzahl der Dokumente im Testset: 4278
+Gefundene Labels: 114
+Insgesamt getroffene Vorhersagen: 19656
+Richtig vorhergesagte Labels: 15598
+Falsch vorhergesagte Labels: 4058
+
+LABELVERTEILUNG IM TESTSET DES KORPUS (absteigend sortiert):
+histoire_t: 4876
+histoire et archéologie_d: 3533
+sciences sociales interdisciplinaires_d: 3103
+approches de corpus_t: 2572
+histoire_d: 2552
+archives_t: 2520
+enquêtes_t: 2423
+1914-1918_t: 1263
+époque contemporaine_t: 1188
+pluridisciplinarité_d: 965
+humanités pluridisciplinaires_d: 937
+monde germanique_t: 816
+arts et humanités_d: 636
+information_t: 520
+haut moyen âge_t: 402
+bas moyen âge_t: 360
+patrimoine_t: 346
+digital humanities_t: 342
+histoire culturelle_t: 319
+xviie siècle_t: 297
+moyen âge_t: 278
+communication_d: 267
+sociologie du travail_t: 264
+sociologie de la culture_t: 262
+représentations_t: 258
+xviiie siècle_t: 251
+édition électronique_t: 249
+éducation_d: 205
+sociologie urbaine_t: 204
+sociologie et anthropologie_d: 196
+histoire intellectuelle_t: 195
+histoire sociale_t: 191
+histoire et philosophie des sciences_d: 189
+prospectives_t: 179
+histoire et sociologie des médias_t: 178
+épistémologie et méthodes_t: 175
+histoire de l'art_t: 171
+religions_d: 170
+études des sciences_t: 168
+époque moderne_t: 164
+sociologie économique_t: 163
+sociologie_t: 156
+france_t: 154
+histoire des sciences_t: 149
+sciences auxiliaires de l'histoire_t: 148
+histoire urbaine_t: 145
+europe centrale et orientale_t: 138
+sciences politiques_d: 138
+vie de la recherche_t: 131
+europe_t: 129
+éducation_t: 126
+histoire des religions_t: 119
+asie_t: 118
+sociologie des sciences_t: 114
+langue et linguistique_d: 109
+sciences de l'information_t: 108
+bibliothéconomie_d: 108
+éducation spécialisée_d: 105
+travail social_d: 100
+1939-1945_t: 99
+sociologie_d: 99
+sciences de l'éducation_t: 98
+études visuelles_t: 84
+révolution française_t: 83
+études asiatiques_d: 76
+1945-1989_t: 74
+âges de la vie_t: 72
+archéologie_d: 71
+linguistique_t: 70
+religions_t: 66
+sciences de l'information et de la communication_d: 66
+biomédecine_d: 65
+histoire des sciences sociales_d: 63
+psychisme_t: 63
+sciences de l'information et bibliothéconomie_d: 63
+conflits_t: 59
+histoire du droit_t: 58
+littératures_t: 57
+psychologie_t: 56
+guerres_t: 56
+littérature_d: 55
+travail social et politique sociale_d: 55
+études régionales_d: 54
+violence_t: 49
+méthodes de traitement et de représentation_t: 47
+xxie siècle_t: 47
+1918-1939_t: 46
+étude des genres_t: 46
+xvie siècle_t: 45
+arts_d: 44
+chine_t: 44
+administration publique et développement_d: 43
+psychologie_d: 43
+philosophie_d: 42
+pays baltes et scandinaves_t: 42
+sociologie des religions_t: 40
+anthropologie politique_t: 40
+musique_d: 36
+historiographie_t: 36
+histoire politique_t: 34
+études anciennes_d: 29
+langage_t: 27
+xxe siècle_t: 26
+philosophie_t: 25
+histoire économique_t: 25
+pensée_t: 24
+linguistique appliquée_d: 22
+psychologie expérimentale_d: 18
+histoire industrielle_t: 18
+sciences cognitives_t: 16
+éducation et sciences de l'éducation_d: 15
+relations internationales_t: 14
+économie_d: 13
+études sur la famille_d: 12
+
+
+ANZAHL DER FEHLERHAFTEN VORHERSAGEN PRO LABEL (absteigend sortiert):
+approches de corpus_t: 352
+archives_t: 311
+histoire et archéologie_d: 253
+enquêtes_t: 202
+histoire_d: 186
+arts et humanités_d: 166
+histoire_t: 125
+sciences sociales interdisciplinaires_d: 115
+monde germanique_t: 114
+pluridisciplinarité_d: 109
+humanités pluridisciplinaires_d: 109
+bas moyen âge_t: 95
+haut moyen âge_t: 94
+digital humanities_t: 92
+information_t: 90
+1914-1918_t: 87
+communication_d: 81
+histoire culturelle_t: 67
+patrimoine_t: 53
+histoire sociale_t: 52
+histoire et philosophie des sciences_d: 52
+bibliothéconomie_d: 47
+histoire et sociologie des médias_t: 45
+représentations_t: 42
+france_t: 40
+histoire urbaine_t: 36
+époque contemporaine_t: 33
+histoire intellectuelle_t: 32
+histoire politique_t: 31
+prospectives_t: 30
+histoire des sciences_t: 30
+sociologie de la culture_t: 30
+1939-1945_t: 28
+histoire des sciences sociales_d: 26
+europe_t: 25
+histoire de l'art_t: 25
+langue et linguistique_d: 24
+sciences politiques_d: 24
+xviiie siècle_t: 24
+histoire des religions_t: 24
+europe centrale et orientale_t: 23
+xviie siècle_t: 22
+sociologie économique_t: 22
+sciences de l'information_t: 21
+moyen âge_t: 20
+linguistique_t: 20
+épistémologie et méthodes_t: 20
+archéologie_d: 19
+sociologie du travail_t: 19
+biomédecine_d: 19
+études des sciences_t: 18
+époque moderne_t: 18
+sciences de l'éducation_t: 18
+asie_t: 17
+chine_t: 17
+1945-1989_t: 16
+édition électronique_t: 14
+sciences auxiliaires de l'histoire_t: 14
+histoire économique_t: 13
+éducation_d: 13
+1918-1939_t: 11
+sociologie et anthropologie_d: 11
+langage_t: 10
+arts_d: 10
+anthropologie politique_t: 10
+linguistique appliquée_d: 10
+relations internationales_t: 10
+histoire du droit_t: 10
+révolution française_t: 9
+administration publique et développement_d: 9
+histoire industrielle_t: 8
+xxe siècle_t: 8
+littérature_d: 8
+sciences de l'information et de la communication_d: 8
+historiographie_t: 8
+psychisme_t: 7
+conflits_t: 7
+âges de la vie_t: 7
+sociologie urbaine_t: 7
+éducation et sciences de l'éducation_d: 7
+musique_d: 6
+sociologie des sciences_t: 6
+études sur la famille_d: 6
+économie_d: 5
+psychologie_d: 5
+sociologie_d: 5
+littératures_t: 5
+vie de la recherche_t: 5
+études anciennes_d: 5
+religions_d: 5
+éducation spécialisée_d: 5
+études visuelles_t: 4
+méthodes de traitement et de représentation_t: 4
+études asiatiques_d: 4
+guerres_t: 4
+pensée_t: 4
+sociologie_t: 4
+philosophie_d: 4
+religions_t: 4
+études régionales_d: 3
+travail social et politique sociale_d: 3
+xvie siècle_t: 3
+sciences de l'information et bibliothéconomie_d: 3
+philosophie_t: 3
+psychologie expérimentale_d: 2
+psychologie_t: 2
+travail social_d: 2
+éducation_t: 2
+pays baltes et scandinaves_t: 2
+sociologie des religions_t: 2
+violence_t: 1
+xxie siècle_t: 1
+
+
+FEHLER DER VORHERSAGEN PRO LABEL IN PROZENT (absteigend sortiert):
+histoire politique_t: 91.18%
+relations internationales_t: 71.43%
+histoire économique_t: 52.0%
+études sur la famille_d: 50.0%
+éducation et sciences de l'éducation_d: 46.67%
+linguistique appliquée_d: 45.45%
+histoire industrielle_t: 44.44%
+bibliothéconomie_d: 43.52%
+histoire des sciences sociales_d: 41.27%
+chine_t: 38.64%
+économie_d: 38.46%
+langage_t: 37.04%
+xxe siècle_t: 30.77%
+communication_d: 30.34%
+biomédecine_d: 29.23%
+linguistique_t: 28.57%
+1939-1945_t: 28.28%
+histoire et philosophie des sciences_d: 27.51%
+histoire sociale_t: 27.23%
+digital humanities_t: 26.9%
+archéologie_d: 26.76%
+bas moyen âge_t: 26.39%
+arts et humanités_d: 26.1%
+france_t: 25.97%
+histoire et sociologie des médias_t: 25.28%
+anthropologie politique_t: 25.0%
+histoire urbaine_t: 24.83%
+1918-1939_t: 23.91%
+haut moyen âge_t: 23.38%
+arts_d: 22.73%
+historiographie_t: 22.22%
+langue et linguistique_d: 22.02%
+1945-1989_t: 21.62%
+histoire culturelle_t: 21.0%
+administration publique et développement_d: 20.93%
+histoire des religions_t: 20.17%
+histoire des sciences_t: 20.13%
+sciences de l'information_t: 19.44%
+europe_t: 19.38%
+sciences de l'éducation_t: 18.37%
+sciences politiques_d: 17.39%
+information_t: 17.31%
+histoire du droit_t: 17.24%
+études anciennes_d: 17.24%
+prospectives_t: 16.76%
+europe centrale et orientale_t: 16.67%
+musique_d: 16.67%
+pensée_t: 16.67%
+histoire intellectuelle_t: 16.41%
+représentations_t: 16.28%
+patrimoine_t: 15.32%
+histoire de l'art_t: 14.62%
+littérature_d: 14.55%
+asie_t: 14.41%
+monde germanique_t: 13.97%
+approches de corpus_t: 13.69%
+sociologie économique_t: 13.5%
+archives_t: 12.34%
+sciences de l'information et de la communication_d: 12.12%
+philosophie_t: 12.0%
+conflits_t: 11.86%
+humanités pluridisciplinaires_d: 11.63%
+psychologie_d: 11.63%
+sociologie de la culture_t: 11.45%
+épistémologie et méthodes_t: 11.43%
+pluridisciplinarité_d: 11.3%
+psychisme_t: 11.11%
+psychologie expérimentale_d: 11.11%
+époque moderne_t: 10.98%
+révolution française_t: 10.84%
+études des sciences_t: 10.71%
+âges de la vie_t: 9.72%
+xviiie siècle_t: 9.56%
+philosophie_d: 9.52%
+sciences auxiliaires de l'histoire_t: 9.46%
+littératures_t: 8.77%
+méthodes de traitement et de représentation_t: 8.51%
+enquêtes_t: 8.34%
+xviie siècle_t: 7.41%
+histoire_d: 7.29%
+sociologie du travail_t: 7.2%
+moyen âge_t: 7.19%
+histoire et archéologie_d: 7.16%
+guerres_t: 7.14%
+1914-1918_t: 6.89%
+xvie siècle_t: 6.67%
+éducation_d: 6.34%
+religions_t: 6.06%
+édition électronique_t: 5.62%
+sociologie et anthropologie_d: 5.61%
+études régionales_d: 5.56%
+travail social et politique sociale_d: 5.45%
+sociologie des sciences_t: 5.26%
+études asiatiques_d: 5.26%
+sociologie_d: 5.05%
+sociologie des religions_t: 5.0%
+pays baltes et scandinaves_t: 4.76%
+sciences de l'information et bibliothéconomie_d: 4.76%
+éducation spécialisée_d: 4.76%
+études visuelles_t: 4.76%
+vie de la recherche_t: 3.82%
+sciences sociales interdisciplinaires_d: 3.71%
+psychologie_t: 3.57%
+sociologie urbaine_t: 3.43%
+religions_d: 2.94%
+époque contemporaine_t: 2.78%
+histoire_t: 2.56%
+sociologie_t: 2.56%
+xxie siècle_t: 2.13%
+violence_t: 2.04%
+travail social_d: 2.0%
+éducation_t: 1.59%
